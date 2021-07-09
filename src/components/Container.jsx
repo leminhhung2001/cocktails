@@ -8,7 +8,7 @@ import { Route, Switch } from "react-router-dom"
 import About from '../pages/About'
 import Home from "../pages/Home";
 import Details from "../pages/Details";
-import NoMatch from "../pages/NoMatch";
+import Error from "../pages/Error";
 
 const Container = () => {
 
@@ -69,7 +69,7 @@ const Container = () => {
         <Details item={item}/>
       </Route>
       <Route path='*'>
-        <NoMatch />
+        <Error />
       </Route>
     </Switch>
     </>

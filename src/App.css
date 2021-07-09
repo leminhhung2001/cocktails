@@ -348,3 +348,45 @@ nav {
   margin-left: 63%;
   transform: translate(-50%, 0);
 }
+
+/* Error URL*/
+.error-page {
+  display: flex;
+  justify-content: center;
+}
+.error-container {
+  text-align: center;
+  text-transform: capitalize;
+}
+.section {
+  padding: 4rem 0;
+}
+
+/* About */
+.section {
+  padding: 4rem 0;
+}
+.section-title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  text-align: center;
+  margin-bottom: 3.5rem;
+  margin-top: 1rem;
+}
+
+.about-section {
+  width: var(--smallWidth);
+  max-width: var(--maxWidth);
+  margin: 0 auto;
+}
+.about-section p {
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.about-section h1 {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
